@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            /*Medidas Absolutas
+             cm, mm, in, x, pt, pc
+            */
+            
+            /*Medidas Relativas 
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            /* Recomendado o uso de em e px */
+            font-weight: bolder;
+            font-style: italic;
+            text-decoration: underline;
+            /*Peso da fonte = lighter, normal, bold, bolder 
+            Ou numeração de 100-900
+            */
+        }
+
+        h1 {
+            font-family: 'Work Sans', sans-serif;
+             font-weight: bolder;
+            font-style: italic;
+            font-size: 3rem;
+            /*Shorthand font 
+            - font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2{
+            font: bold 2em 'Work Sans';
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit laboriosam, quis rerum a modi numquam voluptatibus quaerat officia amet! Quis obcaecati hic excepturi? Distinctio laboriosam repellat voluptatum, eius possimus eveniet. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni delectus, laborum quisquam sed possimus autem vel dolor deserunt, eaque voluptate aspernatur, ipsam repudiandae quia. Fugit id ab nihil accusamus ipsam?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos fugit porro voluptates architecto corporis numquam praesentium quam, ratione aut quod non quaerat, reprehenderit cumque recusandae dolores aperiam perspiciatis! Delectus, nesciunt.</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum deserunt veritatis, quae magnam unde reiciendis placeat necessitatibus at delectus pariatur illo aut eveniet deleniti porro nisi provident consectetur! Id, maxime?</p>
+</body>
+</html>
