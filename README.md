@@ -12,8 +12,8 @@ Repositório de estudos e exercícios do Módulo 2 do curso sobre as linguagens 
 </ul>
 
 # &#x1F680; Status
-:construction: Estudando
-<p>Inicio: 22/01/2023</p>
+Concluido ✔️
+
 
 # 🏆 Aprendizado
 Capítulo 13:
